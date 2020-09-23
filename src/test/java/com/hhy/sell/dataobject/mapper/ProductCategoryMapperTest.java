@@ -24,5 +24,6 @@ public class ProductCategoryMapperTest extends TestCase {
         map.put("category_name","师兄最帅");
         map.put("category_type","1");
        int a =  mapper.insertByMap(map);
+        System.out.println("测试github提交");
     }
 }
