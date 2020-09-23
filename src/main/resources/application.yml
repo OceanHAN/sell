@@ -1,0 +1,14 @@
+spring:
+  #数据库连接配置
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://192.168.56.101:3306/shell?characterEncoding=utf-8&useSSL=false
+
+  jpa:
+    show-sql: true
+    database-platform: org.hibernate.dialect.H2Dialect
+server:
+  servlet:
+    context-path: /sell
